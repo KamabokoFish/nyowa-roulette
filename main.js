@@ -7,5 +7,5 @@ btn.onclick = function () {
   //乱数だけ回転
   container.style.transform = "rotate(" + number + "deg)";
   //乱数を新しくする
-  number += Math.ceil(Math.random() * 1000 * 3);
+  number += Math.ceil(Math.random() * 1000 * 4);
 };
