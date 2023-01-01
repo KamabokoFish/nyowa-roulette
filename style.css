@@ -24,10 +24,10 @@ header {
   top: 0;
   height: 50px;
   width: 100%;
-  background: rgba(243, 240, 240, 0.1);
+  background: rgba(243, 240, 240, 0.05);
   position: fixed;
   z-index: 2;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(2px);
 }
 header h3{
   font-size:35px;
@@ -50,7 +50,7 @@ header h3{
 
 .container div {
   height: 50%;
-  width: 138px;
+  width: 135px;
   position: absolute;
   clip-path: polygon(100% 0, 50% 100%, 0 0);
   transform: translateX(-50%);
@@ -59,10 +59,10 @@ header h3{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 7px;
-  font-weight: medium;
+  font-size: 12px;
+  font-weight: 400;
   color: #fff;
-  left: 72px;
+  left: 73px;
 }
 @media screen and (min-width: 550px) {
   .container {

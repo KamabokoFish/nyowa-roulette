@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./style.css" />
     <title>にょわルーレット</title>
   </head>
-  <body>
+  <body class="body">
     <header>
       <h3>にょわおみくじ<img class="icon" src="/icon.png" /></h3>
     </header>
@@ -24,7 +24,7 @@
     <div class="container">
       <button id="spin">Click!</button>
       <div class="one">めちゃ<br />大吉</div>
-      <div class="two">それなりに<br />大吉</div>
+      <div class="two">かなり<br />大吉</div>
       <div class="three">やや<br />大吉</div>
       <div class="four">いちおう<br />大吉</div>
       <div class="five">ぎりぎり<br />大吉</div>
@@ -32,6 +32,23 @@
       <div class="seven">かなり<br />凶</div>
       <div class="eight">大凶</div>
     </div>
-    <script type="module" src="/main.js"></script>
   </body>
+  <script type="module" src="/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.dots.min.js"></script>
+  <script>
+    VANTA.DOTS({
+      el: "body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.0,
+      minWidth: 200.0,
+      scale: 1.0,
+      scaleMobile: 1.0,
+      color: 0xfcfcfc,
+      backgroundColor: 0xeb8f8f,
+      showLines: false,
+    });
+  </script>
 </html>
