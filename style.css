@@ -149,4 +149,8 @@ p.arrow{
   cursor: pointer;
   outline: none;
   letter-spacing: 1px;
+  transition: 0.1s;
+}
+#spin:hover {
+  color:#1cd12a;
 }
